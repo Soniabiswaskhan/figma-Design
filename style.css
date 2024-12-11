@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.navbar_div{
+    /*background-color: wheat;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.nav_item{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.btn_1{
+    padding: 8px;
+    background: none;
+    border: 1px solid rgb(92, 32, 21);
+    border-radius: 10px;
+
+}
+
+.main_div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.contant{
+    width: 400px;
+}
+
+.contant h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+
+.contant p{
+    font-size: 15px;
+}
+
+.btn_2{
+    margin-top: 20px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.clint_logo img{
+    width: 150px;
+}
+
+.clint_logo {
+    /*border: 2px solid tan;*/
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Services h2{
+    background-color: #B9FF66;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Services{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.Services p{
+    width: 700px;
+}
+
+.card_container .icon{
+    width: 200px;
+}
+
+.card_container .card_design{
+    display: flex;
+    
+}
+
+.card_container .card{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 250px;
+}
+
+.card_container{
+    width: 1152px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+}
+
+.card_container h3{
+    font-size: 20px;
+}
+
+#card_one{
+    background-color: #f3f3f3;
+}
+
+#card_two{
+    background-color: #B9FF66;
+}
+
+#card_three{
+    background-color: #191a23;
+    color: white;
+}
+
+#card_four{
+    background-color: #f3f3f3;
+}
+
+#card_five{
+    background-color: #B9FF66;
+}
+
+#card_six{
+    background-color: #191a23;
+    color: white;
+}
+
+.proposal_container{
+    background-color: #e6e5e5;
+    width: 1152px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.proposal_contant_icon .star_icon{
+    width: 300px;
+    
+}
+
+.proposal_contant{
+    width: 576px;
+}
+
+.proposal_contant h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.proposal_contant p{
+    font-size: 15px;
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+.proposal_btn{
+    font-size: 15px;
+    padding: 20px 30px;
+    background-color: #191a23;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.Case_contant{
+    width: 700px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.Case_contant h2{
+    background-color: #B9FF66;
+    padding: 10px;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+}
+
+.restaurant_container{
+    background-color: #191a23;
+    color: white;
+    font-size: 15px;
+    width: 1152px;
+    height: 335px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.restaurant_container p{
+    width: 350px;
+    padding-right: 5px;
+}
+
+.restaurant_btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    color: #B9FF66;
+    font-size: 15px;
+}
+
+.restaurant_contant_1, .restaurant_contant_2, 
+.restaurant_contant_3{
+    border-right: 2px solid #B9FF66;  
+}
+
+
+.working_contant{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.working_contant h2{
+    background-color: #B9FF66;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.working_contant p{
+    font-size: 15px;
+}
+
+.secend_card_container{
+    background-color: #B9FF66;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.secend_card_container_card_design_1{
+    display: flex;
+    align-items: center;
+}
+
+.secend_card_container_card_design_1 h2{
+    font-size: 40px;
+}
+
+.secend_card_container_card_design_1 h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 800px;
+}
+
+.secend_card_container p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.secend_card_container_card_btn{
+    font-size: 40px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 0.1px solid black;
+    border-radius: 50%;
+}
+
+.secend_card_container_part2{
+    background-color: #B9FF66;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.secend_card_container_part3{
+    background-color: #B9FF66;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.secend_card_container_part4{
+    background-color: #B9FF66;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.secend_card_container_part5{
+    background-color: #B9FF66;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.secend_card_container_part6{
+    background-color: #B9FF66;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.part2_card_1{
+    display: flex;
+    align-items: center;
+}
+
+.part2_card_1 h2{
+    font-size: 40px;
+}
+
+.part2_card_1 h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 520px;
+}
+
+.part2_card_2{
+    display: flex;
+    align-items: center;
+}
+
+.part2_card_2 h2{
+    font-size: 40px;
+}
+
+.part2_card_2 h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 777px;
+}
+
+
+.part2_card_3{
+    display: flex;
+    align-items: center;
+}
+
+.part2_card_3 h2{
+    font-size: 40px;
+}
+
+.part2_card_3 h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 616px;
+}
+
+.part2_card_4{
+    display: flex;
+    align-items: center;
+}
+
+.part2_card_4 h2{
+    font-size: 40px;
+}
+
+.part2_card_4 h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 598px;
+}
+
+.part2_card_5{
+    display: flex;
+    align-items: center;
+}
+
+.part2_card_5 h2{
+    font-size: 40px;
+}
+
+.part2_card_5 h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 680px;
+}
